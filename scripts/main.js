@@ -14,7 +14,7 @@ let myImage = document.querySelector("img");
 
 // Alert when click H1
 myHTML.addEventListener("click", () => {
-  alert("You've clicked at h1");
+  alert("You've clicked at " + myHeading.textContent);
 });
 
 // Change Image
